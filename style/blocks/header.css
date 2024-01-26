@@ -1,0 +1,63 @@
+.header {
+  height: 123px;
+  padding-top: 26px;
+  margin-bottom: 50px;
+}
+
+.header__container { /*относительно этого блока будет позиционироаться его содержимое*/
+  position: relative;
+
+}
+
+.logo, .menu, .contacts {
+  position: absolute;
+}
+
+.logo {
+  left: 0;
+  margin-right: 79px;
+}
+
+.menu {
+  left: 165px;
+  transform: translate(0%, 50%);
+}
+
+.menu__item {
+  display: inline-block;
+  margin-right: 50px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.menu__item:hover {
+  color: #DA0100;
+}
+
+.menu__item:last-child{
+  margin: 0;
+}
+
+.contacts {
+  right: 0;
+  text-align: right;
+  vertical-align: middle;
+} 
+
+.contacts__phone {
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.contacts__schedule {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 0px;
+  letter-spacing: 0.2px;
+  text-decoration-line: underline;
+}

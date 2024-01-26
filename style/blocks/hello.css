@@ -1,0 +1,23 @@
+.hello__container {
+  position: relative;
+  left: 0;
+  top: 20px;
+  height: 333px;
+}
+
+.hello__title {
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 511px;
+  margin-bottom: 27px;
+}
+
+.hello__text {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 34px;
+}

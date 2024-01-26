@@ -1,0 +1,135 @@
+html {
+    font-family: "Open Sans", 'Helvetica', sans-serif;
+    font-size: 16px;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background: #001821;
+    color: #FFF;
+    line-height: 1.42;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+    border: 0;
+    cursor: pointer;
+}
+
+  * {
+    box-sizing: border-box;
+}
+
+ul {
+    padding: 0; /* убираем все стандартные внешние отступы */
+    margin: 0;
+    list-style: none;
+}
+
+li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: inherit;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.wrapper {
+    overflow: hidden; /* все что за пределами блока-прячем */
+    min-height: 100%;
+}
+
+.wrapper__content {
+    background: url("../../img/3.JPG") center top; /* выставляем фон */
+    background-repeat: no-repeat;
+}
+
+.container {
+    margin: 0 auto; /*центрируем контент*/
+    width: 100%;
+    height: 100%;
+    max-width: 1141px;
+}
+
+.button {
+    width: 168px;
+    border-radius: 35px;
+    background: #F5170E;   
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase; 
+    padding: 18px 31px;
+    display: block;
+    text-align: center;
+}
+
+.button--light, .button--small {
+    width: 135px;
+    height: 55px;
+    color: #fff;
+}
+
+.button--light {
+    background: transparent;
+    color: #F5170E;
+    border: 1px solid;
+    border-color: #F5170E;
+}
+
+.title {
+    color: #FFF;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.title--dark{
+    color: #000;
+}
+
+.title--fire {
+    position: relative;
+}
+
+.title--fire::after {
+    content: "";
+    background: url(../../img/flame.png) no-repeat;
+    width: 21px;
+    height: 28px;
+    position: absolute;
+    margin-left: 15px;
+    top: 25%;
+}
+
