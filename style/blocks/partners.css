@@ -1,0 +1,37 @@
+.partners {
+  background: #F4F5F5;
+  padding-top: 50px;
+}
+
+.partners__container {
+  min-height: 537px;
+}
+
+.partners__title {
+  margin-bottom: 100px;
+  font-size: 48px;
+  color: #1A1B1E;
+}
+
+.partners__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+}
+
+.partner__item {
+  margin-left: 20px;
+  filter: grayscale(100%);
+}
+
+.partner__item:hover {
+  filter: none;
+}
+
+.partner__link {
+  display: flex;
+  width: 270px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+}

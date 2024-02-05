@@ -1,23 +1,36 @@
+.footer {
+  height: 123px;
+  margin-top: 60px;
+}
+
 .footer__container {
-  height: 92px;
-  position: relative;
-  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__col {
+  display: flex;
+  align-items: center;
 }
 
 .social {
-  position: absolute;
-  right: 259px;
-  top: 6px;
-  vertical-align: middle;
+  display: flex;
 }
 
 .social__item {
-  vertical-align: middle;
-  margin-right: 6px;
+  margin-right: 10px;
 }
 
-.social, .social__item, .social__link {
-  display: inline-block;
+.social__link {
+  opacity: 60%;
+}
+
+.social__link:hover {
+  opacity: 100%;
+}
+
+.footer__contacts {
+  margin-left: 50px;
 }
 
 .contacts__info {
@@ -26,4 +39,5 @@
   font-style: normal;
   font-weight: 400;
   line-height: 20px;
+  text-align: right;
 }

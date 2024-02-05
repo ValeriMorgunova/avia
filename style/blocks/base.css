@@ -15,6 +15,7 @@ body {
     line-height: 1.42;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    height: 100%;
 }
 
 button {
@@ -64,13 +65,18 @@ img {
 }
 
 .wrapper {
-    overflow: hidden; /* все что за пределами блока-прячем */
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-width: 1200px;
     min-height: 100%;
 }
 
 .wrapper__content {
     background: url("../../img/3.JPG") center top; /* выставляем фон */
     background-repeat: no-repeat;
+    min-height: 100%;
+    flex: 1;
 }
 
 .container {
@@ -94,22 +100,22 @@ img {
     text-align: center;
 }
 
-.button--light, .button--small {
-    width: 135px;
-    height: 55px;
-    color: #fff;
-}
-
 .button--light {
     background: transparent;
     color: #F5170E;
     border: 1px solid;
     border-color: #F5170E;
+    width: 135px;
+    height: 55px;
+}
+
+.button--light:hover {
+    color: #FFF;
+    background: #F5170E;
 }
 
 .title {
     color: #FFF;
-    font-size: 36px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -131,5 +137,22 @@ img {
     position: absolute;
     margin-left: 15px;
     top: 25%;
+}
+
+h1 {
+    font-size: 72px;
+}
+h3 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
 }
 

@@ -1,30 +1,22 @@
 .header {
-  height: 123px;
-  padding-top: 26px;
-  margin-bottom: 50px;
+  padding-top: 45px;
+  margin-bottom: 30px;
 }
 
-.header__container { /*относительно этого блока будет позиционироаться его содержимое*/
-  position: relative;
-
-}
-
-.logo, .menu, .contacts {
-  position: absolute;
+.header__container {
+  display: flex;
+  align-items: center;
 }
 
 .logo {
-  left: 0;
-  margin-right: 79px;
+  margin-right: 100px;
 }
 
-.menu {
-  left: 165px;
-  transform: translate(0%, 50%);
+.menu__list {
+  display: flex;
 }
 
 .menu__item {
-  display: inline-block;
   margin-right: 50px;
   font-size: 14px;
   font-style: normal;
@@ -41,9 +33,7 @@
 }
 
 .contacts {
-  right: 0;
-  text-align: right;
-  vertical-align: middle;
+   margin-left: auto;
 } 
 
 .contacts__phone {
@@ -60,4 +50,5 @@
   line-height: 0px;
   letter-spacing: 0.2px;
   text-decoration-line: underline;
+  text-align: right;
 }
