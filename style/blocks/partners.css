@@ -1,6 +1,5 @@
 .partners {
   background: #F4F5F5;
-  padding-top: 50px;
 }
 
 .partners__container {
@@ -8,7 +7,8 @@
 }
 
 .partners__title {
-  margin-bottom: 100px;
+  padding-top: 88px;
+  margin-bottom: 70px;
   font-size: 48px;
   color: #1A1B1E;
 }
@@ -16,11 +16,12 @@
 .partners__list {
   display: flex;
   flex-wrap: wrap;
-  margin-left: -30px;
+  margin-left: -40px;
 }
 
 .partner__item {
   margin-left: 20px;
+  padding-bottom: 26px;
   filter: grayscale(100%);
 }
 
@@ -35,3 +36,9 @@
   align-items: center;
   justify-content: center;
 }
+
+.footer__service {
+  padding-bottom: 92px;
+}
+
+

@@ -1,5 +1,5 @@
 .header {
-  padding-top: 45px;
+  padding-top: 29px;
   margin-bottom: 30px;
 }
 
@@ -9,7 +9,7 @@
 }
 
 .logo {
-  margin-right: 100px;
+  margin-right: 80px;
 }
 
 .menu__list {
@@ -17,7 +17,7 @@
 }
 
 .menu__item {
-  margin-right: 50px;
+  margin-right: 55px;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
