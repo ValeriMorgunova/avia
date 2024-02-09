@@ -1,6 +1,9 @@
 .header__service {
   margin-bottom: 0px;
-  padding-top: 34px;
+}
+
+.servise__contacts {
+  margin-top: 0px;
 }
 
 .top-line { 
@@ -68,7 +71,7 @@
 .service__item {
   display: flex;
   justify-content: space-between;
-  padding-top: 46px;
+  padding-top: 47px;
 }
 
 .service__img {

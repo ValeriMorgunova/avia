@@ -33,6 +33,8 @@
 }
 
 .contacts {
+   display: flex;
+   flex-direction: column;
    margin-left: auto;
 } 
 
@@ -41,6 +43,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  padding-bottom: 2px;
 }
 
 .contacts__schedule {

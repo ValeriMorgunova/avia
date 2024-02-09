@@ -31,6 +31,8 @@
 
 .footer__contacts {
   margin-left: 62px;
+  display: flex;
+  flex-direction: column;
 }
 
 .contacts__info {

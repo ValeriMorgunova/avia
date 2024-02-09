@@ -12,7 +12,7 @@
 }
 
 .about__info {
-  max-width: 785px;
+  width: 785px;
   background: url("../../img/mountains.png") center no-repeat;
   padding: 70px 80px;
   border-radius: 5px;
