@@ -1,0 +1,21 @@
+.banner {
+  background: url("../../img/banner.png") no-repeat;
+  height: 363px;
+}
+
+.banner__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.banner__title {
+  font-size: 48px;
+  font-weight: 700;
+  width: 594px;
+}
+
+.banner__img {
+  padding-top: 20px;
+  padding-right: 32px;
+}

@@ -1,0 +1,59 @@
+.welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  width: 100%;
+  background: url("../../img/hello_bg.png") no-repeat;
+  background-size: 100%;
+}
+
+.welcome__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  animation-name: bounce-in-zoomout;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: none;
+}
+
+.welcome__text {
+  font-size: 18px;
+  margin-bottom: 53px;
+}
+
+@keyframes bounce-in-zoomout {    
+  0% {
+    transform:scale(0);
+    animation-timing-function:ease-in;
+    opacity:0;
+  }
+  35% {
+    transform:scale(1);
+    animation-timing-function:ease-out;
+    opacity:1;
+  }
+  55% {
+    transform:scale(.7);
+    animation-timing-function:ease-in;
+  }
+  70% {
+    transform:scale(1);
+    animation-timing-function:ease-out;
+  }
+  80% {
+    transform:scale(.84);
+    animation-timing-function:ease-in;
+  }
+  100% {
+    transform:scale(1);
+    animation-timing-function:ease-out;
+  }
+}
+

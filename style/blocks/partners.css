@@ -9,8 +9,8 @@
 }
 
 .partners__title {
-  padding-top: 88px;
-  margin-bottom: 70px;
+  padding-top: 90px;
+  margin-bottom: 84px;
   font-size: 48px;
   color: #1A1B1E;
 }
@@ -19,10 +19,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 32px;
+  margin-bottom: 72px;
 }
 
-..partners__list:last-child {
+.partners__list:last-child {
   margin-bottom: 0;
 }
 
@@ -39,8 +39,6 @@
 
 .partner__link {
   display: flex;
-  width: 270px;
-  height: 100px;
   align-items: center;
 
 }
