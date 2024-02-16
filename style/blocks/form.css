@@ -30,6 +30,11 @@
   color: #1A1B1E;
 }
 
+.form__input:focus {
+  outline: none;
+  border: 1px solid #F5170E;
+}
+
 .form__input:last-child {
   margin-right: 0;
 }
@@ -61,7 +66,7 @@
 
 .tag__item {
   margin-right: 10px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .tag__label {

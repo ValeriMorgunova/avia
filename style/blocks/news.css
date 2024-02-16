@@ -86,7 +86,7 @@
   font-style: normal;
   font-weight: 700;
   line-height: 32px; 
- 
+  transition:  background-color .3s;
 }
 
  .paginator__item--active .paginator__link {
@@ -95,8 +95,9 @@
  }
 
 .paginator__link:hover {
-  background: #fff;
+  background-color: #fff;
   color: #F5170E;
+  opacity: 1;
  }
 
 

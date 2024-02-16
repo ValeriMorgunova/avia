@@ -25,38 +25,130 @@
   width: 36px;
   height: 36px;
   border-radius: 50%;
+  background: transparent;
+  position: relative;
 }
 
-.social__logo--tg {
-  background: url('../../img/css_sprites.png') -66px -122px;
-}
-
-.social__logo--tg:hover {
-  background: url('../../img/css_sprites.png') -66px -10px;
-}
-
-.social__logo--vk {
-  background: url('../../img/css_sprites.png') -10px -122px;
-}
-
-.social__logo--vk:hover {
-  background: url('../../img/css_sprites.png') -10px -66px;
-}
-
-.social__logo--fb {
-  background: url('../../img/css_sprites.png') -66px -66px;
-}
-
-.social__logo--fb:hover {
-  background: url('../../img/css_sprites.png') -122px -66px;
-}
-
-.social__logo--in {
+.social__logo--tg::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  opacity: 0;
+  transition: opacity .3s;
   background: url('../../img/css_sprites.png') -122px -10px;
 }
 
-.social__logo--in:hover {
+.social__logo--tg::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: url('../../img/css_sprites.png') -122px -66px;
+
+}
+
+.social__logo:hover .social__logo--tg::before {
+  opacity: 0;
+}
+
+.social__logo:hover .social__logo--tg::after  {
+  opacity: 1;
+}
+
+
+.social__logo--vk::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  opacity: 0;
+  transition: opacity .3s;
+  background: url('../../img/css_sprites.png') -10px -122px;
+}
+
+.social__logo--vk::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: url('../../img/css_sprites.png') -66px -122px;
+}
+
+.social__logo:hover .social__logo--vk::before {
+  opacity: 0;
+}
+
+.social__logo:hover .social__logo--vk::after  {
+  opacity: 1;
+}
+
+.social__logo--fb::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  opacity: 0;
+  transition: opacity .3s;
+  background: url('../../img/css_sprites.png') -66px -10px;
+}
+
+.social__logo--fb::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
   background: url('../../img/css_sprites.png') -10px -10px;
+}
+
+.social__logo:hover .social__logo--fb::before {
+  opacity: 0;
+}
+
+.social__logo:hover .social__logo--fb::after  {
+  opacity: 1;
+}
+
+.social__logo--in::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  opacity: 0;
+  transition: opacity .3s;
+  background: url('../../img/css_sprites.png') -10px -66px;
+}
+
+.social__logo--in::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: url('../../img/css_sprites.png') -66px -66px;
+}
+
+.social__logo:hover .social__logo--in::before {
+  opacity: 0;
+}
+
+.social__logo:hover .social__logo--in::after  {
+  opacity: 1;
 }
 
 .footer__contacts {

@@ -98,6 +98,11 @@ img {
     padding: 18px 31px;
     display: block;
     text-align: center;
+    transition: .4s;
+}
+
+.button:hover {
+    background: #DA0100;
 }
 
 .button--light {
@@ -107,6 +112,7 @@ img {
     border-color: #F5170E;
     width: 135px;
     height: 55px;
+    
 }
 
 .button--light:hover {
