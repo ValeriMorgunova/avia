@@ -45,6 +45,7 @@
   display: flex;
   align-items: center;
   margin-bottom: 5px;
+  transition: color .3s;
 }
 
 .people__name::after {

@@ -86,7 +86,7 @@
   font-style: normal;
   font-weight: 700;
   line-height: 32px; 
-  transition:  background-color .3s;
+  transition:  background-color .3s ease;
 }
 
  .paginator__item--active .paginator__link {

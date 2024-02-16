@@ -92,6 +92,10 @@
   margin-right: 16px;
 }
 
+.button__reset:hover {
+  background: #2B2B2B;
+}
+
 .button__submit, .button__reset {
   color: #fff;
 }
